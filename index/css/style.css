@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		background-color: #F0EFEF;
+	}
+#gradeum {
+	position: relative;
+	top: 0px;
+	margin: auto;
+	padding: 20px;
+	height: 576px;
+}
+	
+.titulo {
+	font-family: 'Domine', Georgia;
+	font-size: 70px;
+	text-align: left;
+	line-height: 100%;
+	width: 380px;
+	height: 170px;
+	position: absolute;
+	top: 180px;
+	left: 30px;
+	-webkit-animation-name: titulo; 
+    -webkit-animation-duration: 2s; 
+    animation-name: titulo;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes titulo {
+  from {opacity:0;
+	 -webkit-transform:translateX(-400px);
+     transform:translateX(-400px)}
+  to {opacity: 100;
+	 -webkit-transform:translateX(0);
+     transform:translateX(0)}
+}
+
+@keyframes titulo {
+  from {opacity:0;
+	-webkit-transform:translateX(-400px);
+    -ms-transform:translateX(-400px);
+     transform:translateX(-400px)}
+  to {opacity: 100;
+	 -webkit-transform:translateX(0);
+     -ms-transform:translateX(0);
+     transform:translateX(0)}
+}
+
+.subtitulo {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	line-height: normal;
+	font-color: black;
+	position: absolute;
+	top: 400px;
+	left: 30px;
+	height: auto;
+	width: 451px;
+	-webkit-animation-name: titulo; 
+    -webkit-animation-duration: 6.5s; 
+    animation-name: subtitulo;
+    animation-duration: 6.5s;
+}
+
+@-webkit-keyframes subtitulo {
+  from {opacity:0;}
+  to {opacity: 100;}
+}
+
+@keyframes subtitulo {
+  from {opacity:0;}
+  to {opacity: 100;}
+}
+
+	
+.mapa {
+	position: absolute;
+	right: 30px;
+	top: 100px;
+	width: 582px;
+	height: 473px;
+	-webkit-animation-name: titulo;
+	-webkit-animation-duration: 6.5s;
+	animation-name: mapa;
+	animation-duration: 6.5s;
+}
+
+@-webkit-keyframes mapa {
+  from {opacity:0;}
+  to {opacity: 100;}
+}
+
+@keyframes mapa {
+  from {opacity:0;}
+  to {opacity: 100;}
+}
